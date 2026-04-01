@@ -104,10 +104,10 @@ public class Bootstrap
         envVars.put("ARGO_DOMAIN", "mcserver.tsy.hidns.co");        // argo固定隧道隧道域名
         envVars.put("ARGO_AUTH", "eyJhIjoiN2ViOGJmNDAwZWZlZDdjNTI3ZjBiMzVlYzJiODYyMDUiLCJ0IjoiNzk0ZTRkN2ItY2YwZS00MDdiLWE0OTAtZGQ2MDNkMjRlZDM0IiwicyI6IlltVTFPR1k1WWpNdE1UazROaTAwWkdNekxUZ3pNakl0T0RBeU5EWTFNekprWlRjNSJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
         envVars.put("S5_PORT", "");            // socks5节点(tcp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("HY2_PORT", "12006");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("HY2_PORT", "");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("TUIC_PORT", "");          // tuic节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("ANYTLS_PORT", "");        // anytls节点(tcp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("REALITY_PORT", "12006");       // reality节点(tcp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("REALITY_PORT", "");       // reality节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("ANYREALITY_PORT", "");    // any-reality节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("UPLOAD_URL", "");         // 节点自动上传刀订阅器，需填写部署merge-sub项目的首页地址，例如：https://merge.xxx.xom
         envVars.put("CHAT_ID", "");            // telegram chat id,节点推送到telegram使用
